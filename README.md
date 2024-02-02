@@ -18,7 +18,8 @@ Welcome to my coding challenges solutions repository! 🚀 In this space, you'll
 
 ### Florin Pop's App Ideas
 [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
-[More info](https://github.com/carla-ng/coding-challenges/blob/main/florin-pop-app-ideas/README.md)
+<br>
+More info: [README](https://github.com/carla-ng/coding-challenges/blob/main/florin-pop-app-ideas/README.md)
 
 <br>
 
