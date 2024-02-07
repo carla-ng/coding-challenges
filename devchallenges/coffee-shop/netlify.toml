@@ -1,3 +1,3 @@
 [build]
-base = "devChallenges/coffee-shop/"
+base = "devchallenges/coffee-shop/"
 publish = "dist"
