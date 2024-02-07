@@ -17,7 +17,7 @@ Best way to learn programming is by building projects. Learn and improve by doin
             <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/devchallenges/coffee-shop/public/coffeshop-preview.jpg" alt="Simple Coffee Listing preview">
         </td>
         <td>
-            <a href="https://devchallenges.io/challenge/45">Simple_Coffee_Listing</a>
+            <a href="https://devchallenges.io/challenge/45" target="_blank">Simple_Coffee_Listing</a>
         </td>
         <td>
             <p>You will need to implement a reusable card component with different variables based on the data given.</p>
@@ -35,7 +35,7 @@ Best way to learn programming is by building projects. Learn and improve by doin
             </ul>
         </td>
         <td>
-            <a href="https://github.com/carla-ng/coding-challenges/tree/main/devchallenges/coffee-shop/">Repo</a>
+            <a href="https://github.com/carla-ng/coding-challenges/tree/main/devchallenges/coffee-shop/" target="_blank">Repo</a>
         </td>
         <td>-</td>
     </tr>

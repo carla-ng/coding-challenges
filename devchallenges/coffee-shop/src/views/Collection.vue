@@ -86,7 +86,7 @@ onMounted (() => {
     @media (min-width: $breakpoint-min-lg) { width: 85%; }
 
     .collection_intro {
-        background-image: url('./src/assets/img/vector.svg');
+        background-image: url('/src/assets/img/vector.svg');
         background-position: 165px 0px;
         background-repeat: no-repeat;
         background-size: 255px auto;
