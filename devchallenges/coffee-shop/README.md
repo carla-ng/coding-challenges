@@ -1,7 +1,23 @@
-# Vue 3 + Vite
+<!-- <p align="center">
+  <img src="https://github.com/carla-ng/devchallenges/blob/master/src/assets/readme_image_1.jpg?raw=true" alt="Simple Coffee Listing preview">
+</p> -->
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<br>
 
-## Recommended IDE Setup
+# Simple Coffee Listing 
+You will need to implement a reusable card component with different variables based on the data given.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Requirements
+* Create a coffee listing page that matches the given design.
+* Use React or other Front-end libraries for this challenge.
+* Create a Reusable Card component.
+* The card component should include a picture, name, pricing, rating, and number of votes if exists.
+* The card component should render popular tag, availability status conditionally.
+* Render Coffee list with given data. The data should come from a given API or downloaded JSON file.
+* Users can choose to list all products or just available products.
+* Deploy the solution and submit Repository URL and Demo URL.
+
+<br>
+
+## :clap: Acknowledgments
+* [Coffee icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/coffee) for favicon
