@@ -1,4 +1,4 @@
-# [DevChallenges](https://devchallenges.io/)
+# [devChallenges](https://devchallenges.io/)
 Best way to learn programming is by building projects. Learn and improve by doing.
 
 <br>
@@ -14,10 +14,10 @@ Best way to learn programming is by building projects. Learn and improve by doin
     </tr>
     <tr>
         <td>
-            -
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/devchallenges/coffee-shop/public/coffeshop-preview.jpg" alt="Simple Coffee Listing preview">
         </td>
         <td>
-            <a href="https://devchallenges.io/challenge/45">Simple Coffee Listing</a>
+            <a href="https://devchallenges.io/challenge/45">Simple_Coffee_Listing</a>
         </td>
         <td>
             <p>You will need to implement a reusable card component with different variables based on the data given.</p>

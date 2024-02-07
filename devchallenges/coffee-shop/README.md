@@ -1,6 +1,6 @@
-<!-- <p align="center">
-  <img src="https://github.com/carla-ng/devchallenges/blob/master/src/assets/readme_image_1.jpg?raw=true" alt="Simple Coffee Listing preview">
-</p> -->
+<p align="center">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/devchallenges/coffee-shop/public/coffeshop-preview.jpg" alt="Simple Coffee Listing preview">
+</p>
 
 <br>
 
@@ -20,4 +20,5 @@ You will need to implement a reusable card component with different variables ba
 <br>
 
 ## :clap: Acknowledgments
+* Coding challenge by [devChallenges](https://devchallenges.io/)
 * [Coffee icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/coffee) for favicon
