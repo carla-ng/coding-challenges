@@ -2,6 +2,12 @@
 
 Welcome to my coding challenges solutions repository! 🚀 In this space, you'll find my solutions to various coding challenges sourced from different platforms. From interactive UI elements to fully functional websites, dive into the code and discover different approaches to building delightful user experiences. I also encourage you to explore these challenges on your own on the original platforms. Let's keep coding and crafting amazing web experiences! 💻✨
 
+<br><br>
+
+
+## :globe_with_meridians: Demo
+-
+
 
 <br><br>
 
@@ -17,7 +23,6 @@ Become a Better Designer in 100 Days. Daily UI is a series of Design Challenges 
 Best way to learn programming is by building projects. Learn and improve by doing.
 
 * [MY SOLUTIONS](https://github.com/carla-ng/coding-challenges/tree/main/devchallenges)
-* MY DEMO (in progress)
 
 
 <br><br>
