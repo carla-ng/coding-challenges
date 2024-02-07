@@ -19,6 +19,11 @@ You will need to implement a reusable card component with different variables ba
 
 <br>
 
+## :globe_with_meridians: Demo
+[https://carla-ng-coffee-shop.netlify.app/](https://carla-ng-coffee-shop.netlify.app/)
+
+<br>
+
 ## :clap: Acknowledgments
 * Coding challenge by [devChallenges](https://devchallenges.io/)
 * [Coffee icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/coffee) for favicon
