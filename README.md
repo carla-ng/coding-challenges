@@ -6,7 +6,7 @@ Welcome to my coding challenges solutions repository! 🚀 In this space, you'll
 
 
 ## :globe_with_meridians: Demo
--
+[https://carla-ng.github.io/coding-challenges/](https://carla-ng.github.io/coding-challenges/)
 
 
 <br><br>
@@ -21,8 +21,8 @@ Become a Better Designer in 100 Days. Daily UI is a series of Design Challenges 
 
 ### [devChallenges](https://devchallenges.io/) ![Static Badge](https://img.shields.io/badge/in%20progress-DAB225)
 Best way to learn programming is by building projects. Learn and improve by doing.
-
-* [MY SOLUTIONS](https://github.com/carla-ng/coding-challenges/tree/main/devchallenges)
+<br><br>
+[My Repository](https://github.com/carla-ng/coding-challenges/tree/main/devchallenges)
 
 
 <br><br>
