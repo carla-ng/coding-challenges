@@ -37,7 +37,7 @@ Best way to learn programming is by building projects. Learn and improve by doin
         <td>
             <a href="https://github.com/carla-ng/coding-challenges/tree/main/devchallenges/coffee-shop/" target="_blank">Repo</a>
         </td>
-        <td>-
+        <td>
             <a href="https://carla-ng-coffee-shop.netlify.app/" target="_blank">Demo</a>
         </td>
     </tr>
