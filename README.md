@@ -13,6 +13,7 @@ Welcome to my coding challenges solutions repository! 🚀 In this space, you'll
 
 ### devChallenges
 [https://devchallenges.io/](https://devchallenges.io/)
+More info: [README](https://github.com/carla-ng/coding-challenges/blob/main/devchallenges/README.md)
 
 <br>
 
