@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  margin: 30px 12px;
+  margin: 30px 0 60px 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
 }
 body .projects {
   width: 90vw;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   body .projects {
@@ -15,9 +16,15 @@ body .projects {
     width: 60vw;
   }
 }
+body .projects h1 {
+  text-align: center;
+}
 body .projects h2 {
   margin-top: 4rem;
   text-decoration: underline;
+}
+body .projects hr {
+  margin-top: 4rem;
 }
 body .projects .projects__list {
   display: grid;
@@ -42,10 +49,14 @@ body .projects .projects__list a {
   color: #000;
   overflow: hidden;
   text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+body .projects .projects__list a:hover {
+  box-shadow: 0px 10px 10px #959595;
 }
 body .projects .projects__list a .projects__list-image {
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-  height: 130px;
+  height: 260px;
   overflow: hidden;
   width: 100%;
   display: flex;
