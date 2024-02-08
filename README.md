@@ -9,12 +9,6 @@ Welcome to my coding challenges solutions repository! 🚀 In this space, you'll
 [https://carla-ng.github.io/coding-challenges/](https://carla-ng.github.io/coding-challenges/)
 
 
-<br><br>
-
-
-### [Daily UI](https://www.dailyui.co/)
-Become a Better Designer in 100 Days. Daily UI is a series of Design Challenges and Surprise Rewards sent out everyday.
-
 
 <br><br>
 
