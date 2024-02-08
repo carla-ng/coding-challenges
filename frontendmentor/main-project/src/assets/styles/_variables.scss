@@ -1,0 +1,23 @@
+
+/*
+ *    Job Listings with filters
+ */
+
+// Colors
+ $jl-primary-color-01: hsl(180, 29%, 50%);
+
+ $jl-neutral-color-01: hsl(180, 52%, 96%);  // Background
+ $jl-neutral-color-02: hsl(180, 31%, 95%);  // Filter Tablets
+ $jl-neutral-color-03: hsl(180, 8%, 52%);
+ $jl-neutral-color-04: hsl(180, 14%, 20%);
+
+// Font
+$jl-body-fontsize: 15px;
+$jl-font-family: 'League Spartan', sans-serif;
+
+$jl-font-weight-medium: 500;
+$jl-font-weight-bold:  700;
+
+// Breakpoints
+$jl-breakpoint-max-mobile:  '1439px';
+$jl-breakpoint-min-desktop: '1440px';

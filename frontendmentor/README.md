@@ -36,6 +36,30 @@ Our professionally designed challenges help you gain hands-on experience writing
             <a href="https://carla-ng-space-tourism.netlify.app/" target="_blank">Demo</a>
         </td>
     </tr>
+    <tr>
+        <td>
+            <i>In Progress</i>
+        </td>
+        <td>
+            <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt" target="_blank">Job_listings_with_filtering</a>
+        </td>
+        <td>
+            <p>In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.</p>
+            <br>
+            <p>Your users should be able to:</p>
+            <ul>
+                <li>Filter job listings based on the categories selected</li>
+                <li>View the optimal layout for the interface depending on their device's screen size</li>
+                <li>See hover and focus states for all interactive elements on the page</li>
+            </ul>
+        </td>
+        <td>
+            <i>In Progress</i>
+        </td>
+        <td>
+            <i>In Progress</i>
+        </td>
+    </tr>
 </table>
 
 <br><br>
