@@ -9,8 +9,9 @@ Welcome to my coding challenges solutions repository! 🚀 In this space, you'll
 [https://carla-ng.github.io/coding-challenges/](https://carla-ng.github.io/coding-challenges/)
 
 
-
-<br><br>
+<br>
+<hr>
+<br>
 
 
 ### [devChallenges](https://devchallenges.io/) ![Static Badge](https://img.shields.io/badge/in%20progress-DAB225)
@@ -29,8 +30,10 @@ Have you ever wanted to build something but you had no idea what to do? Just as 
 <br><br>
 
 
-### [Frontend Mentor](https://www.frontendmentor.io/)
- Our professionally designed challenges help you gain hands-on experience writing HTML, CSS, and JavaScript. We create the designs so you can focus on the code and see your skills skyrocket!
+### [Frontend Mentor](https://www.frontendmentor.io/) ![Static Badge](https://img.shields.io/badge/in%20progress-DAB225)
+Our professionally designed challenges help you gain hands-on experience writing HTML, CSS, and JavaScript. We create the designs so you can focus on the code and see your skills skyrocket!
+<br><br>
+[My Repository](https://github.com/carla-ng/coding-challenges/tree/main/frontendmentor)
 
 
 <br><br>
