@@ -1,18 +1,53 @@
 <template>
+
     <main id="job-listings" class="page">
-        <img  v-if="isDesktop" class="job-listings_header" src="/src/assets/job-listings/img/bg-header-desktop.svg">
-        <img v-else class="job-listings_header" src="/src/assets/job-listings/img/bg-header-mobile.svg">
+
+        <img  v-if="isDesktop" class="jl_header" src="/src/assets/job-listings/img/bg-header-desktop.svg">
+        <img v-else class="jl_header" src="/src/assets/job-listings/img/bg-header-mobile.svg">
+
+        <div class="jl_list-container">
+            <JobListingsCard v-for="job in jobsList" key="job.id" :job-info="job" />
+        </div>
+
     </main>
+
 </template>
 
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
+import JobListingsCard from '../components/JobListingsCard.vue';
 
 const isDesktop = ref(window.innerWidth >= 768);
 const updateWindowSize = () => isDesktop.value = window.innerWidth >= 768;
+const jobsList = ref([])
 
-onMounted(() => window.addEventListener('resize', updateWindowSize));
+
+// Fetch job listings from JSON
+const fetchJSON = async() => {
+    try {
+        const response = await fetch('/src/assets/job-listings/json/jobs.json')
+
+        if ( !response.ok ) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json()
+        jobsList.value = data
+        console.log(data)
+
+    } catch( error ) {
+        console.error('Error fetching jobs JSON: ', error.message)
+    }
+    
+};
+
+
+onMounted(() => {
+    fetchJSON() // Get jobs listings
+    window.addEventListener('resize', updateWindowSize)
+});
+
 onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 </script>
 
@@ -21,15 +56,18 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 #job-listings {
     background-color:  $jl-neutral-color-01;
 
-    .job-listings_header {
+    .jl_header {
         background-color: $jl-primary-color-01;
         height: auto;
         width: 100%;
         
-        @media (min-width: $jl-breakpoint-min-desktop) {
-            
-        }
+        @media (min-width: $jl-breakpoint-min-desktop) {}
+    }
 
+    .jl_list-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
 }
