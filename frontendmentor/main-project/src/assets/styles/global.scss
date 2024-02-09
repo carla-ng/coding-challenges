@@ -5,13 +5,16 @@ html {
     height: 100%;
 }
 
-html, body {
+html, body, #app, .page {
     width: 100%;
 }
 
-body {
+body, #app, .page {
     min-height: 100vh;
-    //min-height: 100%;
+}
+
+#app {
+    padding: 0;
 }
 
 *, *:before, *:after {
