@@ -23,9 +23,9 @@
 
         <div class="jl-card_tags-section">
             <ul>
-                <li>{{ jobInfo.role }}</li>
-                <li>{{ jobInfo.level }}</li>
-                <li v-if="jobInfo.languages" v-for="language in jobInfo.languages">{{ language }}</li>
+                <li @click="addFilter(jobInfo.role)">{{ jobInfo.role }}</li>
+                <li @click="addFilter(jobInfo.level)">{{ jobInfo.level }}</li>
+                <li @click="addFilter(language)" v-if="jobInfo.languages" v-for="language in jobInfo.languages">{{ language }}</li>
             </ul>
         </div>
 
@@ -35,10 +35,20 @@
 
 
 <script setup>
+import { useFiltersStore } from '../store/jobListingsStore'
+
 // Props definition
 const props = defineProps({
     jobInfo: Object,
 });
+
+const { addSelectedFilter } = useFiltersStore()
+
+const addFilter = ( filter ) => {
+    console.log(filter)
+    addSelectedFilter( filter );
+}
+
 </script>
 
 
@@ -65,7 +75,7 @@ const props = defineProps({
 
         margin: 1rem 0;
         padding: 1.2rem 2rem;
-        width: 100%;
+        width: 95%;
     }
 
     .jl-card_main-info {
@@ -83,6 +93,7 @@ const props = defineProps({
         .jl-card_logo-container {
             img {
                 width: 25%;
+                @media ( max-width: $jl-breakpoint-max-mobile ) { max-width: 95px; }
                 @media ( min-width: $jl-breakpoint-min-desktop ) { width: 100%; }
             }
         }
@@ -152,7 +163,7 @@ const props = defineProps({
                 &:hover { color: $jl-primary-color-01; }
 
                 @media ( min-width: $jl-breakpoint-min-desktop ) {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                     margin-top: 0.7rem;
                 }
             }
@@ -202,6 +213,7 @@ const props = defineProps({
                 cursor: pointer;
                 font-size: 1rem;
                 padding: 0.6rem 0.6rem 0.5rem 0.6rem;
+                user-select: none;
 
                 &:not(:last-child) {
                     margin-inline-end: 1rem;

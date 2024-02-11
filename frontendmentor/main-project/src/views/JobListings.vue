@@ -37,7 +37,7 @@ const fetchJSON = async() => {
 
         const data = await response.json()
         jobsList.value = data
-        console.log(data)
+        //console.log(data)
 
     } catch( error ) {
         console.error('Error fetching jobs JSON: ', error.message)
@@ -57,8 +57,7 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 
 <style lang="scss" scoped>
 #job-listings {
-    background-color:  $jl-neutral-color-01;
-    //background-color: black;
+    background-color: $jl-neutral-color-01;
     font-family: $jl-font-family;
     font-size: $jl-body-fontsize;
 
@@ -66,6 +65,8 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
         background-color: $jl-primary-color-01;
         height: auto;
         width: 100%;
+
+        @media ( max-width: $jl-breakpoint-max-mobile ) { max-height: 200px; }
     }
 
     .jl_list-container {
