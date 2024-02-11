@@ -5,6 +5,8 @@
         <img  v-if="isDesktop" class="jl_header" src="/src/assets/job-listings/img/bg-header-desktop.svg">
         <img v-else class="jl_header" src="/src/assets/job-listings/img/bg-header-mobile.svg">
 
+        <JobListingsFilters />
+
         <div class="jl_list-container">
             <JobListingsCard v-for="job in jobsList" key="job.id" :job-info="job" />
         </div>
@@ -17,6 +19,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import JobListingsCard from '../components/JobListingsCard.vue';
+import JobListingsFilters from '../components/JobListingsFilters.vue';
 
 const isDesktop = ref(window.innerWidth >= 768);
 const updateWindowSize = () => isDesktop.value = window.innerWidth >= 768;
@@ -55,7 +58,7 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 <style lang="scss" scoped>
 #job-listings {
     background-color:  $jl-neutral-color-01;
-    background-color: black;
+    //background-color: black;
     font-family: $jl-font-family;
     font-size: $jl-body-fontsize;
 
@@ -63,8 +66,6 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
         background-color: $jl-primary-color-01;
         height: auto;
         width: 100%;
-        
-        @media (min-width: $jl-breakpoint-min-desktop) {}
     }
 
     .jl_list-container {
@@ -73,8 +74,13 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
         flex-direction: column;
 
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 1000px;
+        padding: 1.5rem 0;
         width: 100%;
+
+        @media ( min-width: $jl-breakpoint-min-desktop ) {
+            padding: 3rem 0;
+        }
     }
 
 }

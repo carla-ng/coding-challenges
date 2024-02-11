@@ -45,23 +45,46 @@ const props = defineProps({
 <style lang="scss" scoped>
 .jl-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 
     background-color: $white;
     border-radius: 5px;
-    margin: 1rem 0;
-    padding: 2rem;
-    width: 100%;
+    box-shadow: 5px 5px 20px darken($jl-neutral-color-02, 15%);
+    margin: 2rem 0;
+    padding: 1.5rem 1rem;
+    width: 85%;
 
     border-left: 5px solid $white;
     &.new-job { border-left: 5px solid $jl-primary-color-01; }
 
+    
+    @media ( min-width: $jl-breakpoint-min-desktop ) {
+        align-items: center;
+        flex-direction: row;
+
+        margin: 1rem 0;
+        padding: 1.2rem 2rem;
+        width: 100%;
+    }
+
     .jl-card_main-info {
         display: flex;
+        flex-direction: column;
+
+        @media ( max-width: $jl-breakpoint-max-mobile ) {
+            margin-top: -3.5rem;
+        }
+
+        @media ( min-width: $jl-breakpoint-min-desktop ) {
+            flex-direction: row;
+        }
 
         .jl-card_logo-container {
-            // img {}
+            img {
+                width: 25%;
+                @media ( min-width: $jl-breakpoint-min-desktop ) { width: 100%; }
+            }
         }
 
         .jl-card_info-container {
@@ -69,52 +92,76 @@ const props = defineProps({
             flex-direction: column;
             justify-content: center;
 
-            padding: 0 1rem;
+            padding: 1rem 0;
+
+            @media ( max-width: $jl-breakpoint-max-mobile ) {
+                border-bottom: 1px solid lighten($jl-neutral-color-03, 30%);
+            }
+
+            @media ( min-width: $jl-breakpoint-min-desktop ) {
+                padding: 0 1rem;
+            }
 
             .jl-card_info-company {
 
                 .jl-card_name {
                     color: $jl-primary-color-01;
-                    cursor: pointer;
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                     font-weight: $jl-font-weight-bold;
+
+                    @media ( min-width: $jl-breakpoint-min-desktop ) {
+                        font-size: 0.9rem;
+                    }
                 }
 
                 .jl-card_new {
                     background-color: $jl-primary-color-01;
                     border-radius: 20px;
                     color: $white;
-                    font-size: 0.7rem;
+                    font-size: 0.8rem;
                     font-weight: $jl-font-weight-medium;
-                    margin-left: 0.8rem;
+                    margin-inline-start: 0.8rem;
                     line-height: 0.7rem;
-                    padding: 0.3rem 0.5rem;
+                    padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+
+                    @media ( min-width: $jl-breakpoint-min-desktop ) { font-size: 0.7rem; }
                 }
 
                 .jl-card_featured {
                     background-color: $black;
                     border-radius: 20px;
                     color: $white;
-                    font-size: 0.7rem;
+                    font-size: 0.8rem;
                     font-weight: $jl-font-weight-medium;
-                    margin-left: 0.3rem;
+                    margin-inline-start: 0.3rem;
                     line-height: 0.7rem;
-                    padding: 0.3rem 0.5rem;
+                    padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+
+                    @media ( min-width: $jl-breakpoint-min-desktop ) { font-size: 0.7rem; }
                 }
             }
 
             h1 {
                 color: $black;
-                font-size: 1.5rem;
+                cursor: pointer;
+                font-size: 1rem;
                 font-weight: $jl-font-weight-bold;
-                margin-top: 0.7rem;
+                margin-top: 1rem;
+                user-select: none;
 
                 &:hover { color: $jl-primary-color-01; }
+
+                @media ( min-width: $jl-breakpoint-min-desktop ) {
+                    font-size: 1.5rem;
+                    margin-top: 0.7rem;
+                }
             }
 
             ul.jl-card_info-list {
                 display: flex;
-                margin-top: 0.5rem;
+                margin-top: 1rem;
+
+                @media ( min-width: $jl-breakpoint-min-desktop ) { margin-top: 0.5rem; }
 
                 li {
                     color: $jl-neutral-color-03;
@@ -143,7 +190,37 @@ const props = defineProps({
     .jl-card_tags-section {
         ul {
             display: flex;
-            // li {}
+
+            @media ( max-width: $jl-breakpoint-max-mobile ) {
+                flex-wrap: wrap;
+            }
+
+            li {
+                background-color: $jl-neutral-color-01;
+                border-radius: 5px;
+                color: $jl-primary-color-01;
+                cursor: pointer;
+                font-size: 1rem;
+                padding: 0.6rem 0.6rem 0.5rem 0.6rem;
+
+                &:not(:last-child) {
+                    margin-inline-end: 1rem;
+                }
+
+                &:hover, &:active {
+                    background-color: $jl-primary-color-01;
+                    color: $white;
+                }
+
+                @media ( max-width: $jl-breakpoint-max-mobile ) {
+                    margin-top: 1rem;
+                }
+
+                @media ( min-width: $jl-breakpoint-min-desktop ) {
+                    font-size: 0.9rem;
+                    padding: 0.4rem 0.4rem 0.3rem 0.4rem;
+                }
+            }
         }
     }
 }
