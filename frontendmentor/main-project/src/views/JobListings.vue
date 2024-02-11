@@ -55,6 +55,9 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 <style lang="scss" scoped>
 #job-listings {
     background-color:  $jl-neutral-color-01;
+    background-color: black;
+    font-family: $jl-font-family;
+    font-size: $jl-body-fontsize;
 
     .jl_header {
         background-color: $jl-primary-color-01;
@@ -68,6 +71,10 @@ onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
         display: flex;
         align-items: center;
         flex-direction: column;
+
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
     }
 
 }
