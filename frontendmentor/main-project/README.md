@@ -1,10 +1,12 @@
 # Collection of Componentes and Pages 
 This project contains different components and pages developed as solutions to the coding challenges from [Frontend Mentor](https://www.frontendmentor.io/).
 
+<br>
 <hr>
+<br>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/devchallenges/coffee-shop/public/coffeshop-preview.jpg" alt="Simple Coffee Listing preview">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/joblistings-preview.jpg" alt="Job Listings with Filters preview">
 </p>
 
 <br>
