@@ -57,7 +57,7 @@ Our professionally designed challenges help you gain hands-on experience writing
             <a href="https://github.com/carla-ng/coding-challenges/tree/main/frontendmentor/main-project/" target="_blank">Repo</a>
         </td>
         <td>
-            <a href="https://carla-ng-space-tourism.netlify.app/" target="_blank">Demo</a>
+            <a href="https://carla-ng-frontend-mentor.netlify.app/job-listings/" target="_blank">Demo</a>
         </td>
     </tr>
 </table>

@@ -23,7 +23,7 @@ Your users should be able to:
 <br>
 
 ### :globe_with_meridians: Demo
-[https://carla-ng-frontend-mentor.app/job-listings](https://carla-ng-frontend-mentor.app/job-listings)
+[https://carla-ng-frontend-mentor.netlify.app/job-listings/](https://carla-ng-frontend-mentor.netlify.app/job-listings/)
 
 <br>
 
