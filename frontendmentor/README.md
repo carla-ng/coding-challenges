@@ -41,7 +41,7 @@ Our professionally designed challenges help you gain hands-on experience writing
            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/job-listings/joblistings-preview.jpg" alt="Job Listings preview">
         </td>
         <td>
-            <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt" target="_blank">Job_listings_with_filters</a>
+            <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt" target="_blank">Job_listings_with_filtering</a>
         </td>
         <td>
             <p>In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.</p>
