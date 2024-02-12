@@ -29,7 +29,7 @@ Your users should be able to:
 
 ### Files that belong to the project
 * Pages:
-    * JobListings.vue
+    * views/JobListings.vue
 * Components:
     * compontents/JobListingsCard.vue
     * compontents/JobListingsFilters.vue
