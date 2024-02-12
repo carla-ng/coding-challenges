@@ -35,7 +35,7 @@ const jobsList = ref([])
 // Fetch job list from JSON file
 const fetchJobs = async () => {
     try {
-        const response = await fetch('/src/assets/job-listings/json/jobs.json')
+        const response = await fetch('/job-listings/json/jobs.json')
 
         if ( !response.ok ) {
             throw new Error(`HTTP error! Status: ${response.status}`)

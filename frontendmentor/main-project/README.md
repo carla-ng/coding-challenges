@@ -6,7 +6,7 @@ This project contains different components and pages developed as solutions to t
 <br>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/joblistings-preview.jpg" alt="Job Listings with Filters preview">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/job-listings/joblistings-preview.jpg" alt="Job Listings with Filters preview">
 </p>
 
 <br>
@@ -23,7 +23,7 @@ Your users should be able to:
 <br>
 
 ### :globe_with_meridians: Demo
-<i>In Progress</i>
+[https://carla-ng-frontend-mentor.app/job-listings](https://carla-ng-frontend-mentor.app/job-listings)
 
 <br>
 
