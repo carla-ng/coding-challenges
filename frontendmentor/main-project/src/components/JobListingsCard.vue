@@ -45,8 +45,7 @@ const props = defineProps({
 const { addSelectedFilter } = useFiltersStore()
 
 const addFilter = ( filter ) => {
-    console.log(filter)
-    addSelectedFilter( filter );
+    addSelectedFilter( filter )
 }
 
 </script>

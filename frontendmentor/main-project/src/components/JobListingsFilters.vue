@@ -24,7 +24,7 @@ const filters = computed(() => {
 });
 
 const removeFilter = ( filter ) => {
-    removeSelectedFilter( filter );
+    removeSelectedFilter( filter )
 }
 
 const clearFilters = () => {

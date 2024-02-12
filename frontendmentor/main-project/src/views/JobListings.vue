@@ -8,7 +8,7 @@
         <JobListingsFilters />
 
         <div class="jl_list-container">
-            <JobListingsCard v-for="job in jobsList" key="job.id" :job-info="job" />
+            <JobListingsCard v-for="job in jobsList" :key="job.id" :job-info="job" />
         </div>
 
     </main>
@@ -17,41 +17,63 @@
 
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onBeforeMount, onMounted, onUnmounted, watch } from 'vue';
+import { useJobsStore } from '../store/jobListingsStore'
 import JobListingsCard from '../components/JobListingsCard.vue';
 import JobListingsFilters from '../components/JobListingsFilters.vue';
 
 const isDesktop = ref(window.innerWidth >= 768);
 const updateWindowSize = () => isDesktop.value = window.innerWidth >= 768;
+
 const jobsList = ref([])
+const jobsStore = useJobsStore()
+const filteredJobs = ref([])
 
+const fetchJobs = async () => {
+    // await jobsStore.fetchJSON()
+    // jobsList.value = jobsStore.jobsList
 
-// Fetch job listings from JSON
-const fetchJSON = async() => {
     try {
-        const response = await fetch('/src/assets/job-listings/json/jobs.json')
+        const response = await fetch('/src/assets/job-listings/json/jobs.json');
 
         if ( !response.ok ) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        const data = await response.json()
-        jobsList.value = data
-        //console.log(data)
+        const data = await response.json();
 
-    } catch( error ) {
-        console.error('Error fetching jobs JSON: ', error.message)
+        console.log(data)
+
+        jobsList.value = data;
+    } catch ( error ) {
+        console.error('Error fetching jobs JSON: ', error.message);
     }
-    
-};
+}
 
+// watch(() => jobsStore.jobsList, () => {
+//     jobsList.value = jobsStore.jobsList;
+// })
+
+/*
+onBeforeMount(async () => {
+    await jobsStore.fetchJSON()
+    const json = jobsStore.jobsList
+    console.log(json.value)
+});
+*/
 
 onMounted(() => {
-    fetchJSON() // Get jobs listings
+    fetchJobs()
     window.addEventListener('resize', updateWindowSize)
 });
 
 onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
+
+/*
+watch(() => jobsStore.filteredJobs, ( newValue ) => {
+    filteredJobs.value = newValue;
+});
+*/
 </script>
 
 
