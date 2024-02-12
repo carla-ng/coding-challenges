@@ -8,7 +8,7 @@
         <JobListingsFilters />
 
         <div class="jl_list-container">
-            <JobListingsCard v-for="job in jobsList" :key="job.id" :job-info="job" />
+            <JobListingsCard v-for="job in filteredJobs" :key="job.id" :job-info="job" />
         </div>
 
     </main>
@@ -17,50 +17,54 @@
 
 
 <script setup>
-import { ref, onBeforeMount, onMounted, onUnmounted, watch } from 'vue';
-import { useJobsStore } from '../store/jobListingsStore'
+import { computed, ref, onMounted, onUnmounted } from 'vue';
+import { useFiltersStore } from '../store/jobListingsStore'
 import JobListingsCard from '../components/JobListingsCard.vue';
 import JobListingsFilters from '../components/JobListingsFilters.vue';
 
+
+// Check if mobile or desktop
 const isDesktop = ref(window.innerWidth >= 768);
 const updateWindowSize = () => isDesktop.value = window.innerWidth >= 768;
 
+// Job Listings and filters
+const filtersStore = useFiltersStore()
 const jobsList = ref([])
-const jobsStore = useJobsStore()
-const filteredJobs = ref([])
 
+
+// Fetch job list from JSON file
 const fetchJobs = async () => {
-    // await jobsStore.fetchJSON()
-    // jobsList.value = jobsStore.jobsList
-
     try {
-        const response = await fetch('/src/assets/job-listings/json/jobs.json');
+        const response = await fetch('/src/assets/job-listings/json/jobs.json')
 
         if ( !response.ok ) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
+            throw new Error(`HTTP error! Status: ${response.status}`)
         }
 
-        const data = await response.json();
+        const data = await response.json()
+        jobsList.value = data
 
-        console.log(data)
-
-        jobsList.value = data;
     } catch ( error ) {
-        console.error('Error fetching jobs JSON: ', error.message);
+        console.error('Error fetching jobs JSON: ', error.message)
     }
 }
 
-// watch(() => jobsStore.jobsList, () => {
-//     jobsList.value = jobsStore.jobsList;
-// })
 
-/*
-onBeforeMount(async () => {
-    await jobsStore.fetchJSON()
-    const json = jobsStore.jobsList
-    console.log(json.value)
+// Filter jobs according to filters selected by user
+const filteredJobs = computed(() => {
+    const selectedFilters = filtersStore.getActiveFilters;
+
+    if ( selectedFilters.length === 0 ) {
+        return jobsList.value
+    }
+
+    return jobsList.value.filter(( job ) => {
+        return selectedFilters.every(( filter ) => {
+            return job.languages.includes(filter) || job.role === filter || job.level === filter
+        });
+    });
 });
-*/
+
 
 onMounted(() => {
     fetchJobs()
@@ -69,11 +73,6 @@ onMounted(() => {
 
 onUnmounted(() => window.removeEventListener('resize', updateWindowSize));
 
-/*
-watch(() => jobsStore.filteredJobs, ( newValue ) => {
-    filteredJobs.value = newValue;
-});
-*/
 </script>
 
 

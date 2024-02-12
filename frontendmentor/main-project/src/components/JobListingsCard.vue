@@ -37,6 +37,7 @@
 <script setup>
 import { useFiltersStore } from '../store/jobListingsStore'
 
+
 // Props definition
 const props = defineProps({
     jobInfo: Object,
@@ -44,6 +45,8 @@ const props = defineProps({
 
 const { addSelectedFilter } = useFiltersStore()
 
+
+// Add filter to list of selected filters in store
 const addFilter = ( filter ) => {
     addSelectedFilter( filter )
 }

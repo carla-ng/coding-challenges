@@ -38,7 +38,7 @@ Our professionally designed challenges help you gain hands-on experience writing
     </tr>
     <tr>
         <td>
-            <i>In Progress</i>
+           <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/joblistings-preview.jpg" alt="Job Listings preview">
         </td>
         <td>
             <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt" target="_blank">Job_listings_with_filtering</a>
@@ -54,7 +54,7 @@ Our professionally designed challenges help you gain hands-on experience writing
             </ul>
         </td>
         <td>
-            <i>In Progress</i>
+            <a href="https://github.com/carla-ng/coding-challenges/tree/main/frontendmentor/main-project/" target="_blank">Repo</a>
         </td>
         <td>
             <i>In Progress</i>

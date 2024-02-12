@@ -19,8 +19,17 @@ You will need to implement a reusable card component with different variables ba
 
 <br>
 
-## :globe_with_meridians: Demo
+### :globe_with_meridians: Demo
 [https://carla-ng-coffee-shop.netlify.app/](https://carla-ng-coffee-shop.netlify.app/)
+
+<br>
+
+### :hammer_and_pick: Built with
+* Vue
+* Vite
+* JavaScript
+* SCSS
+* API
 
 <br>
 

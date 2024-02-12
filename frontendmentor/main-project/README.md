@@ -1,7 +1,49 @@
-# Vue 3 + Vite
+# Collection of Componentes and Pages 
+This project contains different components and pages developed as solutions to the coding challenges from [Frontend Mentor](https://www.frontendmentor.io/).
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<hr>
 
-## Recommended IDE Setup
+<p align="center">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/devchallenges/coffee-shop/public/coffeshop-preview.jpg" alt="Simple Coffee Listing preview">
+</p>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<br>
+
+## Job Listings with Filters
+In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.
+<br>
+Your users should be able to:
+<br>
+* Filter job listings based on the categories selected.
+* View the optimal layout for the interface depending on their device's screen size.
+* See hover and focus states for all interactive elements on the page.
+
+<br>
+
+### :globe_with_meridians: Demo
+<i>In Progress</i>
+
+<br>
+
+### Files that belong to the project
+* Pages:
+    * JobListings.vue
+* Components:
+    * compontents/JobListingsCard.vue
+    * compontents/JobListingsFilters.vue
+* Stores:
+    * store/jobListingsStore.js
+
+<br>
+
+### :hammer_and_pick: Built with
+* Vue
+* Vite
+* Pinia
+* JavaScript
+* SCSS
+
+<br>
+
+## :clap: Acknowledgments
+* Coding challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub)

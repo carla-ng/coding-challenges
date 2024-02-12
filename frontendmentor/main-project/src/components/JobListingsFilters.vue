@@ -19,14 +19,20 @@ import { useFiltersStore } from '../store/jobListingsStore'
 
 const { removeSelectedFilter, clearAllFilters } = useFiltersStore()
 
+
+// Returns list of selected filters in store
 const filters = computed(() => {
     return useFiltersStore().selectedFilters
 });
 
+
+// Remove filter from list of selected filters in store
 const removeFilter = ( filter ) => {
     removeSelectedFilter( filter )
 }
 
+
+// Clear list of selected filters in store
 const clearFilters = () => {
     clearAllFilters()
 }
