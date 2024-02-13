@@ -46,8 +46,10 @@ Take your frontend skills to the next level by recreating real websites from rea
 <br><br>
 
 
-### [iCodeThis](https://icodethis.com/)
+### [iCodeThis](https://icodethis.com/) ![Static Badge](https://img.shields.io/badge/in%20progress-DAB225)
 Daily projects you can build to improve your coding skills! There's a new coding challenge awaiting for you every day, and you have 24 hours to complete it.
+<br><br>
+[My Repository](https://github.com/carla-ng/coding-challenges/tree/main/icodethis)
 
 
 <br><br>
