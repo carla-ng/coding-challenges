@@ -39,6 +39,7 @@ Our professionally designed challenges help you gain hands-on experience writing
         <td>
             <ul>
                 <li>Vue</li>
+                <li>Vuex</li>
                 <li>JavaScript</li>
                 <li>SCSS</li>
             </ul>
