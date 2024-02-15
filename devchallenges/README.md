@@ -11,6 +11,7 @@ Best way to learn programming is by building projects. Learn and improve by doin
         <th>Description</th>
         <th>Repository</th>
         <th>Demo</th>
+        <th>Built with</th>
     </tr>
     <tr>
         <td>
@@ -24,14 +25,14 @@ Best way to learn programming is by building projects. Learn and improve by doin
             <br>
             <p>Requirements:</p>
             <ul>
-            <li>Create a coffee listing page that matches the given design</li>
-            <li>Use React or other Front-end libraries for this challenge</li>
-            <li>Create a Reusable Card component</li>
-            <li>The card component should include a picture, name, pricing, rating, and number of votes if exists</li>
-            <li>The card component should render popular tag, availability status conditionally</li>
-            <li>Render Coffee list with given data</li> The data should come from a given API or downloaded JSON file</li>
-            <li>Users can choose to list all products or just available products</li>
-            <li>Deploy the solution and submit Repository URL and Demo URL.</li>
+                <li>Create a coffee listing page that matches the given design</li>
+                <li>Use React or other Front-end libraries for this challenge</li>
+                <li>Create a Reusable Card component</li>
+                <li>The card component should include a picture, name, pricing, rating, and number of votes if exists</li>
+                <li>The card component should render popular tag, availability status conditionally</li>
+                <li>Render Coffee list with given data</li> The data should come from a given API or downloaded JSON file</li>
+                <li>Users can choose to list all products or just available products</li>
+                <li>Deploy the solution and submit Repository URL and Demo URL.</li>
             </ul>
         </td>
         <td>
@@ -40,16 +41,16 @@ Best way to learn programming is by building projects. Learn and improve by doin
         <td>
             <a href="https://carla-ng-coffee-shop.netlify.app/" target="_blank">Demo</a>
         </td>
+        <td>
+            <ul>
+                <li>Vue</li>
+                <li>Vite</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+                <li>API</li>
+            </ul>
+        </td>
     </tr>
 </table>
-
-<br><br>
-
-## :hammer_and_pick: Built with
-* Vue
-* Vite
-* JavaScript
-* SCSS
-* APIs
 
 <br>
