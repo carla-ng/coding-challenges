@@ -11,6 +11,7 @@ Our professionally designed challenges help you gain hands-on experience writing
         <th>Description</th>
         <th>Repository</th>
         <th>Demo</th>
+        <th>Built with</th>
     </tr>
     <tr>
         <td>
@@ -34,6 +35,13 @@ Our professionally designed challenges help you gain hands-on experience writing
         </td>
         <td>
             <a href="https://carla-ng-space-tourism.netlify.app/" target="_blank">Demo</a>
+        </td>
+        <td>
+            <ul>
+                <li>Vue</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -59,15 +67,16 @@ Our professionally designed challenges help you gain hands-on experience writing
         <td>
             <a href="https://carla-ng-frontend-mentor.netlify.app/job-listings/" target="_blank">Demo</a>
         </td>
+        <td>
+            <ul>
+                <li>Vue</li>
+                <li>Vite</li>
+                <li>Pinia</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+            </ul>
+        </td>
     </tr>
 </table>
-
-<br><br>
-
-## :hammer_and_pick: Built with
-* Vue
-* Vuex
-* JavaScript
-* SCSS
 
 <br>
