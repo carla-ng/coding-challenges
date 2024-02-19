@@ -67,6 +67,7 @@ Our professionally designed challenges help you gain hands-on experience writing
 ## :hammer_and_pick: Built with
 * Vue
 * Vuex
+* Vite
 * JavaScript
 * SCSS
 

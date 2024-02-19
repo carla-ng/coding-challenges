@@ -1,0 +1,3 @@
+[build]
+base = "icodethis/main-project/"
+publish = "dist"
