@@ -13,13 +13,11 @@ If you want to go the extra mile, expand upon it, and integrate your unique touc
 Prioritize creativity over pixel-perfect accuracy and showcase your developer ingenuity.
 <br><br>
 
-<!--
 <p align="center">
-    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/job-listings/joblistings-preview.jpg" alt="Job Listings with Filters preview">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
 </p>
 
 <br>
--->
 
 ## User Authentication
 Design:
@@ -28,7 +26,7 @@ Design:
 <br>
 
 ### :globe_with_meridians: Demo
-<i>In Progress</i>
+[https://carla-ng-icodethis.netlify.app/user-authentication](https://carla-ng-icodethis.netlify.app/user-authentication)
 
 <br>
 

@@ -21,19 +21,19 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
     </tr>
     <tr>
         <td>
-            <i>In Progress</i>
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
         </td>
         <td>
             User Authentication
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication preview">
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication design preview">
         </td>
         <td>
             <a href="https://github.com/carla-ng/web-development-practice/tree/main/icodethis/main-project/" target="_blank">Repo</a>
         </td>
         <td>
-            <i>In Progress</i>
+            <a href="https://carla-ng-icodethis.netlify.app/user-authentication" target="_blank">Demo</a>
         </td>
         <td>
             <ul>
