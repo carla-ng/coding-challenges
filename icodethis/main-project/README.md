@@ -5,13 +5,17 @@ This project contains different components and pages developed as solutions to t
 <hr>
 <br>
 
-<br><br>
+<br>
 Start with the design and transform it into a functional project using HTML, CSS, and JavaScript.
 <br>
 If you want to go the extra mile, expand upon it, and integrate your unique touch by adding animations and interactivity.
 <br>
 Prioritize creativity over pixel-perfect accuracy and showcase your developer ingenuity.
 <br><br>
+
+<br>
+<hr>
+<br>
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
@@ -46,5 +50,5 @@ Design:
 
 <br>
 
-## :clap: Acknowledgments
+### :clap: Acknowledgments
 * Coding challenge by [iCodeThis](https://icodethis.com/)
