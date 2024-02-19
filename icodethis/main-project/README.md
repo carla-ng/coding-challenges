@@ -1,7 +1,52 @@
-# Vue 3 + Vite
+# Collection of Componentes and Pages 
+This project contains different components and pages developed as solutions to the coding challenges from [iCodeThis](https://icodethis.com/).
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<br>
+<hr>
+<br>
 
-## Recommended IDE Setup
+<br><br>
+Start with the design and transform it into a functional project using HTML, CSS, and JavaScript.
+<br>
+If you want to go the extra mile, expand upon it, and integrate your unique touch by adding animations and interactivity.
+<br>
+Prioritize creativity over pixel-perfect accuracy and showcase your developer ingenuity.
+<br><br>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<!--
+<p align="center">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/job-listings/joblistings-preview.jpg" alt="Job Listings with Filters preview">
+</p>
+
+<br>
+-->
+
+## User Authentication
+Design:
+<img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication preview">
+
+<br>
+
+### :globe_with_meridians: Demo
+<i>In Progress</i>
+
+<br>
+
+### Files that belong to the project
+* Pages:
+    * views/UserAuthentication.vue
+* Components:
+    * compontents/UserAuthenticationForm.vue
+
+<br>
+
+### :hammer_and_pick: Built with
+* Vue
+* Vite
+* JavaScript
+* SCSS
+
+<br>
+
+## :clap: Acknowledgments
+* Coding challenge by [iCodeThis](https://icodethis.com/)

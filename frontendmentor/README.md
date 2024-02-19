@@ -79,5 +79,4 @@ Our professionally designed challenges help you gain hands-on experience writing
         </td>
     </tr>
 </table>
-
 <br>
