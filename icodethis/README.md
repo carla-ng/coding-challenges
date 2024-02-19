@@ -30,7 +30,7 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
             <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication design preview">
         </td>
         <td>
-            <a href="https://github.com/carla-ng/web-development-practice/tree/main/icodethis/main-project/" target="_blank">Repo</a>
+            <a href="https://github.com/carla-ng/coding-challenges/tree/main/icodethis/main-project/" target="_blank">Repo</a>
         </td>
         <td>
             <a href="https://carla-ng-icodethis.netlify.app/user-authentication" target="_blank">Demo</a>
