@@ -54,3 +54,6 @@ Best way to learn programming is by building projects. Learn and improve by doin
 </table>
 
 <br>
+
+## :clap: Acknowledgments
+* [Coffee icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/coffee) for favicon (Simple Coffee Listing)
