@@ -5,13 +5,14 @@ This project contains different components and pages developed as solutions to t
 <hr>
 <br>
 
+## Job Listings with Filters
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/frontendmentor/main-project/public/job-listings/joblistings-preview.jpg" alt="Job Listings with Filters preview">
 </p>
 
 <br>
 
-## Job Listings with Filters
 In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data.
 <br>
 Your users should be able to:
