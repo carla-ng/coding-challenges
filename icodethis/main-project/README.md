@@ -17,13 +17,15 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
 <hr>
 <br>
 
+## User Authentication
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
 </p>
 
 <br>
 
-## User Authentication
+
 Design:
 <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication preview">
 
