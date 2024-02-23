@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue';
 import UserAuthentication from './views/UserAuthentication.vue';
+import Alarm from './views/Alarm.vue';
 
 const routes = [
     {
@@ -12,6 +13,11 @@ const routes = [
         path: '/user-authentication',
         name: 'UserAuthentication',
         component: UserAuthentication,
+    },
+    {
+        path: '/alarm',
+        name: 'Alarm',
+        component: Alarm,
     },
 ];
 

@@ -1,24 +1,32 @@
 $black: #000;
 $white: #fff;
 
+$breakpoint-max-mobile:  '767px';
+$breakpoint-min-desktop: '768px';
+
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-weight-montserrat-medium: 500;
+$font-weight-montserrat-bold:   700;
+
+
 /*
  *    User Authentication
  */
-
-// Colors
 $ua-base-color-01: #F0EAD2;
 $ua-base-color-02: #DDE5B6;
-//$ua-base-color-03: #ADC178;
 
 $ua-accent-color-01: #A98467;
 $ua-accent-color-02: #554439;
 
-// Font
-$ua-font-family: 'Montserrat', sans-serif;
 
-$ua-font-weight-medium: 500;
-$ua-font-weight-bold:   700;
 
-// Breakpoints
-$ua-breakpoint-max-mobile:  '767px';
-$ua-breakpoint-min-desktop: '768px';
+/*
+ *    Alarm
+ */
+$al-base-color-01: #d1e9fd;
+$al-base-color-02: #A2D2FF;
+$al-base-color-03: #616161;
+
+$al-accent-color-01: #FFC8DD;
+$al-accent-color-02: #f881ab;
+$al-accent-color-03: #CDB4DB;

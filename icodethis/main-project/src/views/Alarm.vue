@@ -1,22 +1,22 @@
 <template>
-    <main id="user-authentication" class="page">
-        <UserAuthenticationForm />
+    <main id="alarm" class="page">
+        <AlarmForMobile />
     </main>
 </template>
 
 
 <script setup>
-import UserAuthenticationForm from '../components/UserAuthenticationForm.vue';
+import AlarmForMobile from '../components/AlarmForMobile.vue';
 </script>
 
 
 <style lang="scss" scoped>
-#user-authentication {
+#alarm {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background-color: $ua-base-color-01;
+    background-color: $al-base-color-02;
     font-family: $font-family-montserrat;
     font-size: 16px;
 }

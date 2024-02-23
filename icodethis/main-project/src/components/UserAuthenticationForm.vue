@@ -58,7 +58,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
     overflow: hidden;
     padding: 2rem;
 
-    @media ( min-width: $ua-breakpoint-min-desktop ) { padding: 2rem 3rem; }
+    @media ( min-width: $breakpoint-min-desktop ) { padding: 2rem 3rem; }
 
     form.ua-form {
         display: flex;
@@ -75,14 +75,14 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
                 max-width: 100px;
                 width: 90%;
 
-                @media ( min-width: $ua-breakpoint-min-desktop ) {
+                @media ( min-width: $breakpoint-min-desktop ) {
                     max-width: 130px;
                 }
             }
 
             .ua-form_inviter-invitation {
                 font-size: 0.9rem;
-                font-weight: $ua-font-weight-medium;
+                font-weight: $font-weight-montserrat-medium;
                 margin-top: 1.3rem;
                 text-align: center;
             }
@@ -90,7 +90,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
             .ua-form_inviter-channel {
                 color: $ua-accent-color-01;
                 font-size: 1.3rem;
-                font-weight: $ua-font-weight-bold;
+                font-weight: $font-weight-montserrat-bold;
                 letter-spacing: 1px;
                 margin-top: 1rem;
                 text-align: center;
@@ -103,13 +103,13 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
                 margin-top: 1rem;
                 padding: 0;
 
-                @media ( min-width: $ua-breakpoint-min-desktop ) {
+                @media ( min-width: $breakpoint-min-desktop ) {
                     flex-direction: row;
                 }
 
                 li {
                     font-size: 0.8rem;
-                    font-weight: $ua-font-weight-medium;
+                    font-weight: $font-weight-montserrat-medium;
                     padding: 0.1rem 0.5rem;
                     text-align: center;
                 }
@@ -125,7 +125,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
 
             label {
                 font-size: 0.9rem;
-                font-weight: $ua-font-weight-medium;
+                font-weight: $font-weight-montserrat-medium;
             }
 
             input {
@@ -133,7 +133,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
                 border: none;
                 border-radius: 6px;
                 color: $ua-accent-color-02;
-                font-family: $ua-font-family;
+                font-family: $font-family-montserrat;
                 font-size: 0.9rem;
                 margin-top: 0.3rem;
                 padding: 0.8rem;
@@ -142,7 +142,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
 
                 &::placeholder {
                     color: lighten($ua-accent-color-02, 15%);
-                    font-family: $ua-font-family;
+                    font-family: $font-family-montserrat;
                     font-size: 0.8rem;
                     font-style: italic;
                 }
@@ -166,11 +166,9 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
                 color: $ua-accent-color-02;
                 font-size: 1rem;
                 margin: 0;
-                //padding: 0.7rem;
                 padding: 0;
                 height: 1.4rem;
                 width: 2rem;
-                //border: 0.15em solid black;
                 transform: translateY(-0.075rem);
 
                 display: grid;
@@ -193,12 +191,12 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
 
             label {
                 font-size: 0.8rem;
-                font-weight: $ua-font-weight-medium;
+                font-weight: $font-weight-montserrat-medium;
                 margin-inline-start: 0.5rem;
 
                 a {
                     color: $ua-accent-color-02;
-                    font-weight: $ua-font-weight-bold;
+                    font-weight: $font-weight-montserrat-bold;
 
                     &:hover, &:active {
                         color: darken($ua-accent-color-02, 10%);
@@ -213,7 +211,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
             border-radius: 6px;
             color: $white;
             cursor: pointer;
-            font-family: $ua-font-family;
+            font-family: $font-family-montserrat;
             font-size: 1rem;
             letter-spacing: 1px;
             margin-top: 2rem;
@@ -230,7 +228,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
         a.ua-form_account-link {
             color: $ua-accent-color-02;
             font-size: 0.8rem;
-            font-weight: $ua-font-weight-bold;
+            font-weight: $font-weight-montserrat-bold;
             margin-top: 0.6rem;
 
             &:hover, &:active {
