@@ -14,7 +14,7 @@
         <div class="al-cmp_alarms-container">
             <button class="al-cmp_add-new-alarm">+</button>
             <div class="al-cmp_alarm-list">
-                <article class="al-cmp_alarm">
+                <article class="al-cmp_alarm active-alarm">
                     <div class="al-cmp_alarm-main">
                         <h3 class="al-cmp_alarm-time">7:30 pm</h3>
                         <button class="al-cmp_alarm-activate">-</button>
@@ -22,7 +22,7 @@
                     <div class="al-cmp_alarm-days">
                         <span>Su</span>
                         <span>Mo</span>
-                        <span>Tu</span>
+                        <span class="active-day">Tu</span>
                         <span>We</span>
                         <span>Th</span>
                         <span>Fr</span>
@@ -81,15 +81,18 @@
     }
 
     .al-cmp_alarms-container {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+
         background-color: $white;
-        //transform: skewY(-15deg);
         padding: 1rem 2rem 2rem 2rem;
 
         button.al-cmp_add-new-alarm {
-            //transform: skewY(15deg);
+            width: fit-content;
         }
         .al-cmp_alarm-list {
-            //transform: skewY(15deg);
+            
             article.al-cmp_alarm {
                 .al-cmp_alarm-main {
                     display: flex;
@@ -105,6 +108,7 @@
                     .al-cmp_alarm-main {
                         h3.al-cmp_alarm-time {
                             color: $al-accent-color-02;
+                            font-size: 1.3rem;
                             font-weight: $font-weight-montserrat-bold;
                         }
 
@@ -113,10 +117,17 @@
                 }
 
                 .al-cmp_alarm-days {
+                    margin-top: 0.1rem;
                     width: 100%;
+
                     span {
                         color: $al-accent-color-01;
+                        font-size: 1rem;
                         font-weight: $font-weight-montserrat-medium;
+                        padding: 0 0.3rem;
+
+                        &:first-child { padding-left: 0; }
+                        &:last-child { padding-right: 0; }
                         &.active-day { color: $al-accent-color-02; }
                     }
                 }
