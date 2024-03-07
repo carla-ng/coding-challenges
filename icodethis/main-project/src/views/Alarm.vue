@@ -1,12 +1,12 @@
 <template>
     <main id="alarm" class="page">
-        <AlarmForMobile />
+        <AlarmContainer />
     </main>
 </template>
 
 
 <script setup>
-import AlarmForMobile from '../components/AlarmForMobile.vue';
+import AlarmContainer from '../components/AlarmContainer.vue';
 </script>
 
 
@@ -16,7 +16,7 @@ import AlarmForMobile from '../components/AlarmForMobile.vue';
     justify-content: center;
     align-items: center;
 
-    background-color: $al-base-color-02;
+    background-color: $al-base-color-01;
     font-family: $font-family-montserrat;
     font-size: 16px;
 }

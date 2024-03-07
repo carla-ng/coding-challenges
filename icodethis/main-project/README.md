@@ -54,3 +54,4 @@ Design:
 
 ### :clap: Acknowledgments
 * Coding challenge by [iCodeThis](https://icodethis.com/)
+* SVG from [SVGRepo](https://www.svgrepo.com/)
