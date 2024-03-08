@@ -75,3 +75,4 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
 
 ## :clap: Acknowledgments
 * [Coolors](https://coolors.co/) for generating awesome color palettes (User Authentication)
+* SVGs from [SVGRepo](https://www.svgrepo.com/)

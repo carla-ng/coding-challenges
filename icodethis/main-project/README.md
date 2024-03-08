@@ -96,4 +96,3 @@ Design:
 
 ### :clap: Acknowledgments
 * Coding challenges by [iCodeThis](https://icodethis.com/)
-* SVGs from [SVGRepo](https://www.svgrepo.com/)
