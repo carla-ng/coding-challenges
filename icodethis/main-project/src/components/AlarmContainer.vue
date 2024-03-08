@@ -25,8 +25,8 @@
         </header>
 
         <div class="al-cmp_time-container">
-            <h2 class="al-cmp_time">4:59 PM</h2>
-            <p class="al-cmp_date">3RD JANUARY</p>
+            <h2 class="al-cmp_time">{{ currentTime }}</h2>
+            <p class="al-cmp_date">{{ currentMonth }} {{ currentDay }}</p>
         </div>
 
         <div class="al-cmp_background"></div>
@@ -36,9 +36,9 @@
                 <span>+</span>
             </button>
             <div class="al-cmp_alarm-list">
-                <AlarmElement />
-                <AlarmElement />
-                <AlarmElement />
+                <AlarmElement time="19:30" />
+                <AlarmElement time="06:00" />
+                <AlarmElement time="15:15"/>
             </div>
         </div>
     </section>
@@ -47,6 +47,12 @@
 
 <script setup>
 import AlarmElement from '../components/AlarmElement.vue';
+
+const today = new Date()
+const currentTime = today.getHours() + ":" + today.getMinutes()
+const currentDay = today.getDate()
+const currentMonth = today.toLocaleString('default', { month: 'long' })
+
 </script>
 
 
@@ -82,6 +88,7 @@ import AlarmElement from '../components/AlarmElement.vue';
             font-size: 1rem;
             font-weight: $font-weight-montserrat-bold;
             letter-spacing: 1px;
+            user-select: none;
         }
         .al-cmp_settings {
             display: flex;
@@ -102,11 +109,14 @@ import AlarmElement from '../components/AlarmElement.vue';
             color: $al-accent-color-01;
             font-size: 2rem;
             font-weight: $font-weight-montserrat-bold;
+            user-select: none;
         }
         p.al-cmp_date {
             color: lighten($al-accent-color-02, 5%);
             font-size: 0.85rem;
             font-weight: $font-weight-montserrat-medium;
+            text-transform: uppercase;
+            user-select: none;
         }
     }
 
@@ -147,14 +157,10 @@ import AlarmElement from '../components/AlarmElement.vue';
 
             &:active {
                 box-shadow: none;
-                //span { font-size: 2.2rem; }
                 scale: 0.95;
             }
         }
-        .al-cmp_alarm-list {
-            
-            
-        }
+        //.al-cmp_alarm-list {}
     }
 }
 </style>

@@ -155,6 +155,7 @@ watch([agreeConditions, inputValue], ([agree, input]) => {
             flex-direction: row;
             justify-content: center;
 
+            cursor: pointer;
             margin-top: 1.5rem;
 
             input {

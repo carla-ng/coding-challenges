@@ -20,14 +20,14 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
 ## User Authentication
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication solution preview">
 </p>
 
 <br>
 
 
 Design:
-<img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication preview">
+<img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/user_authentication.webp" alt="User Authentication challenge preview">
 
 <br>
 
@@ -51,7 +51,49 @@ Design:
 * SCSS
 
 <br>
+<hr>
+<br>
+
+## Alarm
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/alarm/alarm-preview.jpg" alt="Alarm solution preview">
+</p>
+
+<br>
+
+
+Design:
+<img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/alarm.webp" alt="Alarm challenge preview">
+
+<br>
+
+### :globe_with_meridians: Demo
+[https://carla-ng-icodethis.netlify.app/alarm](https://carla-ng-icodethis.netlify.app/alarm)
+
+<br>
+
+### Files that belong to the project
+* Pages:
+    * views/Alarm.vue
+* Components:
+    * compontents/AlarmContainer.vue
+    * compontents/AlarmElement.vue
+
+<br>
+
+### :hammer_and_pick: Built with
+* Vue
+* Vite
+* JavaScript
+* SCSS
+
+<br>
+
+<br>
+<hr>
+<br>
 
 ### :clap: Acknowledgments
-* Coding challenge by [iCodeThis](https://icodethis.com/)
-* SVG from [SVGRepo](https://www.svgrepo.com/)
+* Coding challenges by [iCodeThis](https://icodethis.com/)
+* SVGs from [SVGRepo](https://www.svgrepo.com/)
