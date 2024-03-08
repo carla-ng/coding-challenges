@@ -21,7 +21,7 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
     </tr>
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication preview">
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/user-authentication/user-authentication-preview.jpg" alt="User Authentication solution preview">
         </td>
         <td>
             User Authentication
@@ -34,6 +34,31 @@ Prioritize creativity over pixel-perfect accuracy and showcase your developer in
         </td>
         <td>
             <a href="https://carla-ng-icodethis.netlify.app/user-authentication" target="_blank">Demo</a>
+        </td>
+        <td>
+            <ul>
+                <li>Vue</li>
+                <li>Vite</li>
+                <li>JavaScript</li>
+                <li>SCSS</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/alarm/alarm-preview.jpg" alt="Alarm solution preview">
+        </td>
+        <td>
+            Alarm
+        </td>
+        <td>
+            <img src="https://raw.githubusercontent.com/carla-ng/coding-challenges/main/icodethis/main-project/public/designs/alarm.webp" alt="Alarm design preview">
+        </td>
+        <td>
+            <a href="https://github.com/carla-ng/coding-challenges/tree/main/icodethis/main-project/" target="_blank">Repo</a>
+        </td>
+        <td>
+            <a href="https://carla-ng-icodethis.netlify.app/alarm" target="_blank">Demo</a>
         </td>
         <td>
             <ul>
