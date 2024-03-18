@@ -1,0 +1,3 @@
+[build]
+base = "devchallenges/main-project/"
+publish = "dist"
