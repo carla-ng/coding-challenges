@@ -16,7 +16,7 @@ import MusicPlayerCmp from '../components/MusicPlayerCmp.vue';
     justify-content: center;
     align-items: center;
 
-    //background-color: $ua-base-color-01;
+    background-color: #4A2B4B;
     font-family: $font-family-inter;
     font-size: 16px;
 }

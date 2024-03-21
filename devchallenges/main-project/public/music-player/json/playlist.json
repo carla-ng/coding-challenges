@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Lost in City Lights",
+      "artist": "Cosmo Sheldrake",
+      "img": "src/assets/music-player/img/lost-in-city-lights.png",
+      "mp3": "src/assets/music-player/songs/lost-in-city-lights.mp3"
+    },
+    {
+        "id": 2,
+        "title": "Forest Lullaby",
+        "artist": "Lesfm",
+        "img": "src/assets/music-player/img/forest-lullaby.png",
+        "mp3": "src/assets/music-player/songs/forest-lullaby.mp3"
+      }
+  ]
+  
