@@ -2,8 +2,8 @@
 
     <main id="job-listings" class="page">
 
-        <img  v-if="isDesktop" class="jl_header" src="/src/assets/job-listings/img/bg-header-desktop.svg">
-        <img v-else class="jl_header" src="/src/assets/job-listings/img/bg-header-mobile.svg">
+        <img  v-if="isDesktop" class="jl_header" src="/src/assets/job-listings/img/bg-header-desktop.svg" alt="Header background image for desktop">
+        <img v-else class="jl_header" src="/src/assets/job-listings/img/bg-header-mobile.svg" alt="Header background image for mobile">
 
         <JobListingsFilters />
 
