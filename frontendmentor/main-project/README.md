@@ -1,4 +1,4 @@
-# Collection of Componentes and Pages 
+# Collection of Components and Pages 
 This project contains different components and pages developed as solutions to the coding challenges from [Frontend Mentor](https://www.frontendmentor.io/).
 
 <br>
